@@ -5,23 +5,24 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Todo list</title>
+        <title>Todo</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-        <!-- Bootstrap -->
         <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     </head>
+    
     <body>
-        <div class="col-sm-offset-3 col-sm-6">
-            <h4>❤️ You are zzang ❤️</h4>
-            <ul class="list-group ">
-            </ul>
-
-            <div class="form-group">
-            <input id="main-input" type="text" class="form-control" placeholder="Write up something">
-        </div>
-
-        <button type="button" class="btn btn-success" id="main-button">Add A Task</button>
+        <div class="container form-todo">
+            <div class="col-sm-offset-3 col-sm-6">
+                <h2>TODO</h2>
+                <ul class="list-group">
+                </ul>
+        
+                <div class="form-group">
+                    <input id="main-input" type="text" class="form-control" placeholder="Write up something">
+                </div>
+            <button type="button" class="btn btn-success" id="main-button">Add A Task</button>
+            </div>
         </div>
 
         <div class="modal fade" id="editModal" role="dialog">
@@ -39,7 +40,7 @@
                 </div>
             </div>
         </div>
-
+        
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
